@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+</head>
+    <body>
+      <article>
+        <p id="javascriptDisabled">Warning!!!<br> Please Enable Javascript for functionality</p>         <!-- shows only when javascript is disabled -->
+        <h1> Sample Demonstration </h1><hr>
+        <h2>Developer:</h2>
+        <h3><strong>Abhishek Das G H</strong></h3> 
+        Try swiping down if you are using a touch screen device.<br>
+        If more than 50 pixels vertically with less than 100 pixels horizontally is swiped downwards, you will get visualization of requirements for reloading.<br>
+        If more than or equal to 300 pixels vertically with less than 100 pixels horizontally is swiped downwards, page will reload.<br>
+        Remember: If you are using devices with operating systems like Android or iOS, webview or the browser might change the CSS pixel dimensions to density-independent values and the result may not be what you expect.<br>
+        <hr id="lastHr">
+      </article>
+    </body>
+<script>
+document.getElementById("javascriptDisabled").setAttribute("hidden", "");
+</script>
+<script src="./swipedownReload.js"></script>
+</html>
